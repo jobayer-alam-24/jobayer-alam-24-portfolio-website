@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.cs-color{
+    color: rgb(30, 144, 255);
+    font-family: cursive; 
+}
+.color-cs{
+    color: rgba(161, 215, 223, 0.733);
+}
+.custom-hr{
+    overflow: visible; 
+    width: 98%;
+    margin: auto;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(17, 86, 151);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+.custom-hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(17, 71, 151);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(5, 5, 71);
+    color: white;
+    font-family: poppins, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1000px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(8, 8, 129);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 24px; 
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+}
+nav ul li a:hover{
+    color: lavender;
+    border-bottom: 1px solid white;
+}
+.left{
+    font-size: 1.5rem;
+    border: 2px solid #0725a8;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+    padding: 5px;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23vh 0;
+}
+.first-sec > div{
+    width: 30%;
+}
+.left-sec{
+    font-size: 2.5rem;
+    margin: 30px;
+}
+.right-sec img{
+    background: transparent;
+    width: 80%;
+    margin: 3px;
+}
+.second-sec{
+    max-width: 80vw;
+    margin: auto;
+}
+.second-sec h1{
+    font-size: 1.9rem;
+}
+.second-sec .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+.second-sec .box .top-btm{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.first-top-img{
+    width: 30px;
+    position: relative;
+    top: -35px;
+    left: -16px;
+}
+.text-title{
+    width: 150px;
+    position: relative;
+    top: 69px;
+}
+.text-desc{
+    position: relative;
+    top: 79px;
+    color: rgb(146, 133, 14);
+    width: 150px;
+    font-size: 9px;
+}
