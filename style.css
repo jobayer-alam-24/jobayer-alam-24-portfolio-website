@@ -36,6 +36,36 @@ body{
     font-family: poppins, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1000px;
 }
+.html{
+    color: orangered;
+}
+.css{
+    color: blue;
+}
+.js{
+    color: yellow;
+}
+.php{
+    color: #777BB3;
+}
+.lara{
+    color: #f05340;
+}
+.html-in{
+    width: 90%;
+}
+.css-in{
+    width: 80%;
+}
+.js-in{
+    width: 60%;
+}
+.php-in{
+    width: 50%;
+}
+.lara-in{
+    width: 40%;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -170,23 +200,23 @@ nav ul li a:hover{
     height: 1px;
     top: 40px;
     left: 65px;
-    background-color: rgb(26, 85, 212);
+    background-color: rgb(31, 95, 168);
 }
 .info-area h1:after{
     position: absolute;
     content: ' ';
     width: 11%;
-    height: 3px;
+    height: 4px;
     top: calc(110% + 1px);
     left: 0;
-    background-color: rgb(61, 21, 207);
+    background-color: rgb(17, 85, 187);
 }
 .info-area h2{
     font-family: Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding: 14px 0 15px;
-    color:  rgb(13, 13, 197);
+    color:  rgb(13, 114, 197);
 }
 .info-area p{
     font-size: 18px;
@@ -203,7 +233,7 @@ nav ul li a:hover{
     border-bottom: 1px solid rgb(5, 63, 139);
 }
 .personal-info div span{
-    color:  rgb(52, 23, 211);
+    color:  rgb(162, 154, 202);
 }
 .info-area .button{
     width: 20%;
@@ -212,12 +242,13 @@ nav ul li a:hover{
     border-radius: 25px;
 }
 .info-area .button button{
-    padding: 8px 18px;
+    padding: 15px 18px;
     width: 100%;
     --c: #fff;
-    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,#0b62c5;
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,#0f66ca;
     color: #0000;
     border: none;
+    border-radius: 15px;
     transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
     text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c), calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
     outline-offset: .1em;
@@ -240,5 +271,185 @@ nav ul li a:hover{
     font-size: 1.3rem;
     margin: 0;
     cursor: pointer;
-    padding: .1em .3em;
+    padding: .2rem 0.2rem;
+}
+.forth-sec{
+    background-color: rgba(16, 16, 78, 0.801);
+    height: 550px;
+}
+.forth-sec h2{
+    padding: 5% 0;
+    font-family: "Ojuju", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+.service-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.car-con{
+    width: 27.5%;
+    margin-left: 5px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: rgba(28, 84, 134, 0.836);
+    height: 240px;
+    border: 1px solid blue;
+}
+.card-head .icon{
+    font-size: 2rem;
+    margin: 2% 0;
+    color: rgb(41, 102, 233);
+}
+.card-body h3{
+    margin: 3% 0;
+    font-size: 1.3rem;
+}
+.card-body{
+    margin-bottom: 4%;
+}
+.card-foot button{
+    width: 120px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(71, 123, 167, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 0.9rem;
+    border: 2px solid rgb(41, 102, 233);
+    background-color: rgb(41, 102, 233);
+}
+.card-foot button:hover{
+    background-color: rgba(21, 65, 161, 0.247);
+    box-shadow: 0px 15px 20px rgba(5, 25, 116, 0.4);
+    transform: translateY(-7px);
+}
+.fifth-sec{
+    margin: 5%;
+}
+.skill-head{
+    text-align: center;
+}
+.skill-head h2{
+    font-size: 2.3rem;
+}
+.skill-head h2 span{
+    color: rgb(16, 120, 218);
+}
+.skills-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-s-head{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.skills-container h3{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+.skills-container p{
+    font-size: 1.2rem;
+}
+.ls-container{
+    position: relative;
+    margin-bottom: 8%;
+}
+.ls-container .bar{
+    margin-top: 2%;
+    width: 400px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: rgb(47, 47, 70);
+    position: relative;
+    overflow: hidden;
+}
+.ls-container .bar-in{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(9, 153, 236);
+}
+.right-skill{
+    width: 300px;
+    margin-right: 7%;
+}
+.right-skill h3{
+    margin-bottom: 20%;
+    
+}
+.label-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    z-index: 1;
+    padding: 5px;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    background-color: rgb(10, 147, 226);
+}
+.css-lb{
+    top: 60%;
+    left: 70%;
+}
+.js-lb{
+    top: 60%;
+    left: 50%;
+}
+.php-lb{
+    top: 60%;
+    left: 40%;
+}
+.lara-lb{
+    top: 60%;
+    left: 30%;
+}
+.rs-head{
+    text-align: center;
+    margin-right: 14%;
+}
+.first-two{
+    display: flex;
+}
+.pr{
+    margin-right: 20px;
+}
+.text{
+   position: relative;
+   font-size: 1rem;
+   margin-top: 10px;
+}
+.radial-bar{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    margin-bottom: 8%;
+    position: relative;
+}
+.percentage{
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+.first-cr, .tw{
+    margin-left: 10px;
+}
+.progress-bar{
+    stroke: #0999EC;
 }
