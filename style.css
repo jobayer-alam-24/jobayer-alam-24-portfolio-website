@@ -61,29 +61,6 @@ img{
 .top-nav{
     background-color: var(--color-base);
 }
-@media  screen and (max-width: 990px) {
-    .card-1, .card-2{
-        width: 48.8%;
-    }
-    .card-3{
-        width: 90%;
-        margin: auto;
-        margin-top: 2%;
-    }
-}
-@media  screen and (max-width: 768px){
-    .text-for-card{
-        text-align: center;
-    }
-    .card-1, .card-2, .card-3{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card-2{
-        margin-top: 2%;
-    }
-}
 @media screen and (min-width: 992px) {
     .top-nav{
         min-height: 100vh;
@@ -98,6 +75,19 @@ img{
     }
     #content-wrapper{
         padding-left: var(--sidebar-width);
+    }
+}
+@media screen and (min-width: 576px){
+    .card-2, .card-3{
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 575px){
+    .card-2, .card-3{
+        margin-top: 5%;
+    }
+    .card-row{
+        padding: 10px;
     }
 }
 /* navbar ends here  */
